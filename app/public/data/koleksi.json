@@ -3,120 +3,120 @@
     "id": "1",
     "judul": "Seminar Nasional Teknologi ",
     "kategori": "Seminar",
-    "Tanggal": "5 November 2026",
-    "Lokasi": "Aula Gedung Kuliah Umum 1",
-    "Penyelenggara": "Himpunan Mahasiswa Informatika"
+    "tanggal": "5 November 2026",
+    "lokasi": "Aula Gedung Kuliah Umum 1",
+    "penyelenggara": "Himpunan Mahasiswa Informatika"
   },
   {
     "id": "2",
     "judul": "Seminar Kewirausahaan Mahasiswa ",
     "kategori": "Seminar",
-    "Tanggal": "8 November 2026",
-    "Lokasi": "Aula Gedung Kuliah Umum 2",
-    "Penyelenggara": "Keluarga Mahasiswa ITERA"
+    "tanggal": "8 November 2026",
+    "lokasi": "Aula Gedung Kuliah Umum 2",
+    "penyelenggara": "Keluarga Mahasiswa ITERA"
   },
   {
     "id": "3",
     "judul": "Seminar Karier dan Dunia Kerja ",
     "kategori": "Seminar",
-    "Tanggal": "12 November 2026",
-    "Lokasi": "Aula Gedung Kuliah Umum 1",
-    "Penyelenggara": "Unit Kemahasiswaan ITERA"
+    "tanggal": "12 November 2026",
+    "lokasi": "Aula Gedung Kuliah Umum 1",
+    "penyelenggara": "Unit Kemahasiswaan ITERA"
   },
   {
     "id": "4",
     "judul": "Seminar Artificial Intelegence",
     "kategori": "Seminar",
-    "Tanggal": "15 November 2026",
-    "Lokasi": "Aula Gedung Kuliah Umum 1",
-    "Penyelenggara": "Himpunan Mahasiswa Informatika"
+    "tanggal": "15 November 2026",
+    "lokasi": "Aula Gedung Kuliah Umum 1",
+    "penyelenggara": "Himpunan Mahasiswa Informatika"
   },
   {
     "id": "5",
     "judul": "Lomba Pemograman Mahasiswa",
     "kategori": "Lomba",
-    "Tanggal": "18 November 2026",
-    "Lokasi": "Laboratorium Komputer",
-    "Penyelenggara": "Himpunan Mahasiswa Informatika"
+    "tanggal": "18 November 2026",
+    "lokasi": "Laboratorium Komputer",
+    "penyelenggara": "Himpunan Mahasiswa Informatika"
   },
   {
     "id": "6",
     "judul": "Lomba Karya Tulis Ilmiah",
     "kategori": "Lomba",
-    "Tanggal": "20 November 2026",
-    "Lokasi": "Gedung Kuliah Umum 2",
-    "Penyelenggara": "Himpunan Mahasiswa Sains Data"
+    "tanggal": "20 November 2026",
+    "lokasi": "Gedung Kuliah Umum 2",
+    "penyelenggara": "Himpunan Mahasiswa Sains Data"
   },
   {
     "id": "7",
     "judul": "Lomba Desain Poster",
     "kategori": "Lomba",
-    "Tanggal": "22 November 2026",
-    "Lokasi": "Gedung Kuliah Umum 1",
-    "Penyelenggara": "UKM Bidang Seni ITERA"
+    "tanggal": "22 November 2026",
+    "lokasi": "Gedung Kuliah Umum 1",
+    "penyelenggara": "UKM Bidang Seni ITERA"
   },
   {
     "id": "8",
     "judul": "Lomba Debat Mahasiswa",
     "kategori": "Lomba",
-    "Tanggal": "24 November 2026",
-    "Lokasi": "Aula Gedung Kuliah Umum 2",
-    "Penyelenggara": "Keluarga Mahasiswa ITERA"
+    "tanggal": "24 November 2026",
+    "lokasi": "Aula Gedung Kuliah Umum 2",
+    "penyelenggara": "Keluarga Mahasiswa ITERA"
   },
   {
     "id": "9",
     "judul": "Pelatihan Kepemimpinan Mahasiswa",
     "kategori": "Oraganisasi",
-    "Tanggal": "26 November 2026",
-    "Lokasi": "Aula Gedung C",
-    "Penyelenggara": "Keluarga Mahasiswa ITERA"
+    "tanggal": "26 November 2026",
+    "lokasi": "Aula Gedung C",
+    "penyelenggara": "Keluarga Mahasiswa ITERA"
   },
   {
     "id": "10",
     "judul": "Musyawarah Besar Himpunan Mahasiswa",
     "kategori": "Oraganisasi",
-    "Tanggal": "28 November 2026",
-    "Lokasi": "Ruang Kelas ITERA",
-    "Penyelenggara": "Himpunan Mahasiswa Informatika"
+    "tanggal": "28 November 2026",
+    "lokasi": "Ruang Kelas ITERA",
+    "penyelenggara": "Himpunan Mahasiswa Informatika"
   },
   {
     "id": "11",
     "judul": "Rapat Kerja Himpunan Mahasiswa",
     "kategori": "Oraganisasi",
-    "Tanggal": "1 Desember 2026",
-    "Lokasi": "Ruang Kelas ITERA",
-    "Penyelenggara": "Himpunan Mahasiswa Informatika"
+    "tanggal": "1 Desember 2026",
+    "lokasi": "Ruang Kelas ITERA",
+    "penyelenggara": "Himpunan Mahasiswa Informatika"
   },
   {
     "id": "12",
     "judul": "Pengenalan Organisasi Kampus",
     "kategori": "Oraganisasi",
-    "Tanggal": "3 Desember 2026",
-    "Lokasi": "Gedung Student centre",
-    "Penyelenggara": "Keluarga Mahasiswa ITERA"
+    "tanggal": "3 Desember 2026",
+    "lokasi": "Gedung Student centre",
+    "penyelenggara": "Keluarga Mahasiswa ITERA"
   },
   {
     "id": "13",
     "judul": "Turnamen Futsal Antarfakultas",
     "kategori": "Oraganisasi",
-    "Tanggal": "5 Desember 2026",
-    "Lokasi": "Lapangan Olahraga ITERA",
-    "Penyelenggara": "UKM Persitera"
+    "tanggal": "5 Desember 2026",
+    "lokasi": "Lapangan Olahraga ITERA",
+    "penyelenggara": "UKM Persitera"
   },
   {
     "id": "14",
     "judul": "Fun Game Badminton",
     "kategori": "Oraganisasi",
-    "Tanggal": "8 Desember 2026",
-    "Lokasi": "GOR ITERA",
-    "Penyelenggara": "UKM ITERA Badminton ITERA"
+    "tanggal": "8 Desember 2026",
+    "lokasi": "GOR ITERA",
+    "penyelenggara": "UKM ITERA Badminton ITERA"
   },
   {
     "id": "15",
     "judul": "Turnamen Basket ITERA",
     "kategori": "Oraganisasi",
-    "Tanggal": "10 Desember 2026",
-    "Lokasi": "Lapangan Basket ITERA",
-    "Penyelenggara": "UKM ITERA Basketball Team"
+    "tanggal": "10 Desember 2026",
+    "lokasi": "Lapangan Basket ITERA",
+    "penyelenggara": "UKM ITERA Basketball Team"
   }
 ]
