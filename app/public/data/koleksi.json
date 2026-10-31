@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "judul": "Seminar Nasional Teknologi ",
+    "judul": "Seminar Nasional Teknologi",
     "kategori": "Seminar",
     "tanggal": "5 November 2026",
     "lokasi": "Aula Gedung Kuliah Umum 1",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "judul": "Seminar Kewirausahaan Mahasiswa ",
+    "judul": "Seminar Kewirausahaan Mahasiswa",
     "kategori": "Seminar",
     "tanggal": "8 November 2026",
     "lokasi": "Aula Gedung Kuliah Umum 2",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "judul": "Seminar Karier dan Dunia Kerja ",
+    "judul": "Seminar Karier dan Dunia Kerja",
     "kategori": "Seminar",
     "tanggal": "12 November 2026",
     "lokasi": "Aula Gedung Kuliah Umum 1",
