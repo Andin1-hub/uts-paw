@@ -1,5 +1,56 @@
-// Buat tujuh berkas ini di src/pages/ dengan isi sementara seperti ini.
-// Isinya diganti satu per satu saat mengikuti panduan setiap halaman.
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import useKoleksi from '../hooks/useKoleksi.js'
+import './Tambah.css'
+
+const AWAL = { judul: '', kategori: 'Kuliah', tenggat: '', prioritas: 'sedang' }
+
 export default function Tambah() {
-  return <h1>Tambah</h1>
+  const { tambah } = useKoleksi()
+  const navigate = useNavigate()
+  const [form, setForm] = useState(AWAL)
+  const [galat, setGalat] = useState('')
+
+  const ubah = (e) => setForm({ ...form, [e.target.name]: e.target.value })
+
+  const simpan = (e) => {
+    e.preventDefault()
+    if (form.judul.trim().length < 3) {
+      setGalat('Judul wajib diisi, minimal 3 karakter.')
+      return
+    }
+    tambah({ ...form, judul: form.judul.trim() })
+    navigate('/koleksi')
+  }
+
+  return (
+    <form className="formulir" onSubmit={simpan} noValidate>
+      <h1>Tambah Agenda</h1>
+
+      <label htmlFor="judul">Judul</label>
+      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+      {galat && <p role="alert">{galat}</p>}
+
+      <label htmlFor="kategori">Kategori</label>
+      <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
+        <option>Seminar</option>
+        <option>Lomba</option>
+        <option>Organisasi</option>
+        <option>Olahraga</option>
+      </select>
+
+      <label htmlFor="tanggal">Tanggal</label>
+      <input id="tanggal" name="tanggal" type="date" value={form.tenggat} onChange={ubah} />
+
+      <label htmlFor="lokasi">Lokasi</label>
+      <input id="lokasi" name="lokasi" value={form.judul} onChange={ubah} />
+      {galat && <p role="alert">{galat}</p>}
+
+      <label htmlFor="penyelenggara">Penyelenggara</label>
+      <input id="penyelenggara" name="penyelenggara" value={form.judul} onChange={ubah} />
+      {galat && <p role="alert">{galat}</p>}
+
+      <button type="submit">Simpan</button>
+    </form>
+  )
 }
