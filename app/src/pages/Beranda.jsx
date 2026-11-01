@@ -17,7 +17,30 @@ export default function Beranda() {
           Ada {items.length} kegiatan dalam {jumlahKategori} kategori.
         </p>
       )}
-      <Link to="/koleksi">Lihat semua agenda</Link>
+      <div className="beranda-grid">
+        <div className="card card-rust">
+          <h3>Total Kegiatan</h3>
+          {loading ? (
+            <p>Memuat...</p>
+          ) : (
+            <p>{items.length} Kegiatan</p>
+          )}
+        </div>
+
+        <div className="card card-butter">
+          <h3>Kategori</h3>
+            {loading ? (
+              <p>Memuat...</p>
+            ) : (
+              <p>{jumlahKategori} Kategori</p>
+            )}
+        </div>
+
+        <div className="card card-navy">
+          <h3>Navigasi</h3>
+          <Link to="/koleksi">Lihat semua agenda</Link>
+        </div>
+      </div>
     </section>
   )
 }
