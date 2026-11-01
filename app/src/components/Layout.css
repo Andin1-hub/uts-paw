@@ -138,7 +138,7 @@
 
 .menu a.active {
   background: var(--butter);
-  border-color: var(-butter);
+  border-color: var(--butter);
   color: var(--ink);
 }
 
@@ -164,7 +164,7 @@
 }
 
 .daftar-kartu {
-  grid-template-columns: repeat(auto-fit, minimax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 20px;
 }
 
@@ -179,7 +179,7 @@
 
 .kartu:hover {
   transform: translateY(-4px);
-  box-shadow: 0.14px 30px rgba(29, 36, 51, 0.15);
+  box-shadow: 0 14px 30px rgba(29, 36, 51, 0.15);
 }
 
 .kartu h3 {
@@ -194,7 +194,7 @@
   color: inherit;
 }
 
-.kartu a hover {
+.kartu a:hover {
   text-decoration: underline;
 }
 
@@ -239,7 +239,8 @@
 }
 
 .isi dd {
-  margin-top: 24px;
+  margin: 0;
+  font-weight: 600;
 }
 
 .aksi button {
