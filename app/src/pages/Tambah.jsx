@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliah', tenggat: '', prioritas: 'sedang' }
+const AWAL = { judul: '', kategori: '', tanggal: '', lokasi: '', penyelenggara: ''}
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -40,14 +40,14 @@ export default function Tambah() {
       </select>
 
       <label htmlFor="tanggal">Tanggal</label>
-      <input id="tanggal" name="tanggal" type="date" value={form.tenggat} onChange={ubah} />
+      <input id="tanggal" name="tanggal" type="date" value={form.tanggal} onChange={ubah} />
 
       <label htmlFor="lokasi">Lokasi</label>
-      <input id="lokasi" name="lokasi" value={form.judul} onChange={ubah} />
+      <input id="lokasi" name="lokasi" value={form.lokasi} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="penyelenggara">Penyelenggara</label>
-      <input id="penyelenggara" name="penyelenggara" value={form.judul} onChange={ubah} />
+      <input id="penyelenggara" name="penyelenggara" value={form.penyelenggara} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>
